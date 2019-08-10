@@ -1,33 +1,31 @@
-import React, {Component} from 'react';
+import React, { useState } from 'react';
 
-class Search extends Component {
-    state = {
-        text: ''
-    };
+const Search = ({searchUsers, showClear, clearUsers, setAlert}) => {
+    const [text, setText] = useState('');
 
-    onChange = e => this.setState({[e.target.name]: e.target.value});
+    const onChange = e => setText(e.target.value);
 
-    onSubmit = e => {
+    const onSubmit = e => {
         e.preventDefault();
-        if (this.state.text === '' ) {
-            this.props.setAlert('Пожалуйста введите что-нибудь', 'light');
+        if (text === '') {
+            setAlert('Пожалуйста введите что-нибудь', 'light');
         } else {
-            this.props.searchUsers(this.state.text);
-            this.setState({ text: '' });
+            searchUsers(text);
+            setText('');
         }
     };
 
-    render() {
-        return (
-            <div>
-                <form className="form" onSubmit={this.onSubmit.bind(this)} >
-                    <input type="text" name="text" placeholder="Найти пользователей" value={this.state.text} onChange={this.onChange} />
-                    <input type="submit" value="Искать" className="btn btn-dark btn-block"/>
-                </form>
-                {this.props.showClear && (<button className="btn btn-light btn-block" onClick={this.props.clearUsers}>Очистить</button>)}
-            </div>
-        );
-    }
+    return (
+        <div>
+            <form className="form" onSubmit={onSubmit}>
+                <input type="text" name="text" placeholder="Найти пользователей" value={text}
+                       onChange={onChange}/>
+                <input type="submit" value="Искать" className="btn btn-dark btn-block"/>
+            </form>
+            {showClear && (
+                <button className="btn btn-light btn-block" onClick={clearUsers}>Очистить</button>)}
+        </div>
+    );
 }
 
 export default Search;
