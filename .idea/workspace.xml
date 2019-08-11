@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="583971d6-804c-4a47-97ab-5e712de910ea" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/pages/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/pages/NotFound.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/netlify.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layouts/Alert.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layouts/Alert.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/users/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/Search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/users/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/Users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/context/github/GithubState.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/github/GithubState.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/context/github/githubReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/github/githubReducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,16 +19,16 @@
         <entry file="file://$PROJECT_DIR$/src/context/github/githubContext.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="561">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
@@ -47,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/pages/NotFound.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -55,11 +48,29 @@
       <file leaf-file-name="GithubState.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/context/github/GithubState.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="302">
+              <caret line="21" column="49" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="49" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".env.local" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.env.local">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="72" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="netlify.toml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netlify.toml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -80,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/layouts/Alert.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -92,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/src/context/github/githubReducer.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="467">
-              <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+              <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
               <folding>
                 <element signature="e#0#107#0" expanded="true" />
               </folding>
@@ -104,30 +115,9 @@
         <entry file="file://$PROJECT_DIR$/src/components/users/Search.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="types.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/context/types.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/users/User.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="52" lean-forward="true" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-              <folding>
-                <element signature="e#0#49#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -147,7 +137,13 @@
       <find>this.props.</find>
       <find>this.</find>
       <find>userStyle</find>
+      <find>process.env.REACT_APP_GITHUB_CLIENT_ID</find>
+      <find>process.env.REACT_APP_GITHUB_CLIENT_SECRET</find>
     </findStrings>
+    <replaceStrings>
+      <replace>githubClientId</replace>
+      <replace>githubClientSecret</replace>
+    </replaceStrings>
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
@@ -177,10 +173,11 @@
         <option value="$PROJECT_DIR$/src/context/github/githubReducer.js" />
         <option value="$PROJECT_DIR$/src/components/layouts/Alert.js" />
         <option value="$PROJECT_DIR$/src/components/users/Search.js" />
-        <option value="$PROJECT_DIR$/src/context/github/GithubState.js" />
         <option value="$PROJECT_DIR$/src/components/pages/Home.js" />
         <option value="$PROJECT_DIR$/src/components/pages/NotFound.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/context/github/GithubState.js" />
+        <option value="$PROJECT_DIR$/netlify.toml" />
       </list>
     </option>
   </component>
@@ -329,7 +326,7 @@
       <workItem from="1565417750690" duration="14000" />
       <workItem from="1565452923567" duration="2269000" />
       <workItem from="1565458918680" duration="4053000" />
-      <workItem from="1565502248117" duration="6464000" />
+      <workItem from="1565502248117" duration="8271000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 22">
       <created>1564943671827</created>
@@ -352,11 +349,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565462962767</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="finish">
+      <created>1565508728525</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1565508728525</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36043000" />
+    <option name="totallyTimeSpent" value="37850000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -389,22 +393,19 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.toml" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lesson 22" />
     <MESSAGE value="lesson 27" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 27" />
+    <MESSAGE value="finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/pages/About.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="517">
@@ -658,13 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env.local">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -709,7 +703,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/users/User.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="52" lean-forward="true" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
@@ -719,7 +713,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/users/Search.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
@@ -729,26 +723,16 @@
     <entry file="file://$PROJECT_DIR$/src/context/github/githubContext.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/context/github/githubReducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="467">
-          <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
           <folding>
             <element signature="e#0#107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/context/github/GithubState.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -756,7 +740,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/layouts/Alert.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -776,17 +760,41 @@
     <entry file="file://$PROJECT_DIR$/src/components/pages/NotFound.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netlify.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/context/github/GithubState.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="21" column="49" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.local">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="72" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="72" />
         </state>
       </provider>
     </entry>
